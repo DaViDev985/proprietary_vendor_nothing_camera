@@ -644,6 +644,10 @@ applications that come with the platform
         <permission name="android.permission.CONTROL_INCALL_EXPERIENCE" />
     </privapp-permissions>
 
+    <privapp-permissions package="com.nt.grantpermission">
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE" />
+    </privapp-permissions>
+
     <privapp-permissions package="com.tools.cit">
         <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
         <permission name="android.permission.ACCESS_FINE_LOCATION"/>
