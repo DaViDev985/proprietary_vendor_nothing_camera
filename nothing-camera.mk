@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Flags
+TARGET_USES_NOTHING_CAMERA := true
+
 # Properties
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.nothing.camera \
