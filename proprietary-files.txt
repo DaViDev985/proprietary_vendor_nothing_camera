@@ -1,7 +1,10 @@
 # Camera App - Stock
+system_ext/etc/permissions/com.nothing.feature.xml
 system/etc/permissions/NTCamera-google-permissions.xml
 system/etc/permissions/NTCamera-permissions.xml
-system/etc/permissions/privapp-permissions-platform.xml:system/etc/permissions/privapp-permissions-platform-nothing.xml
+system/etc/permissions/privapp-permissions-NothingExperience.xml
 system/etc/sysconfig/com.nothing.experimental.xml
+system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml
 system/priv-app/NothingExperience/NothingExperience.apk
-system/priv-app/NTCamera/NTCamera.apk;OVERRIDES=Camera2,GoogleCameraGo
+vendor/etc/permissions/com.nothing.features_vnd.xml
+vendor/system/priv-app/NTCamera/NTCamera.apk:system/priv-app/NTCamera/NTCamera.apk;OVERRIDES=Camera2,GoogleCameraGo

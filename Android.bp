@@ -6,10 +6,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "NTCamera",
+	name: "NothingExperience",
 	owner: "nothing",
-	apk: "proprietary/system/priv-app/NTCamera/NTCamera.apk",
-	overrides: ["Camera2", "GoogleCameraGo"],
+	apk: "proprietary/system/priv-app/NothingExperience/NothingExperience.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -18,9 +17,10 @@ android_app_import {
 }
 
 android_app_import {
-	name: "NothingExperience",
+	name: "NTCamera",
 	owner: "nothing",
-	apk: "proprietary/system/priv-app/NothingExperience/NothingExperience.apk",
+	apk: "proprietary/system/priv-app/NTCamera/NTCamera.apk",
+	overrides: ["Camera2", "GoogleCameraGo"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

@@ -8,9 +8,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-google-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-google-permissions.xml \
     vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-permissions.xml \
-    vendor/nothing/camera/proprietary/system/etc/permissions/privapp-permissions-platform-nothing.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-platform-nothing.xml \
-    vendor/nothing/camera/proprietary/system/etc/sysconfig/com.nothing.experimental.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.nothing.experimental.xml
+    vendor/nothing/camera/proprietary/system/etc/permissions/privapp-permissions-NothingExperience.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-NothingExperience.xml \
+    vendor/nothing/camera/proprietary/system/etc/sysconfig/com.nothing.experimental.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.nothing.experimental.xml \
+    vendor/nothing/camera/proprietary/system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml \
+    vendor/nothing/camera/proprietary/system_ext/etc/permissions/com.nothing.feature.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nothing.feature.xml \
+    vendor/nothing/camera/proprietary/vendor/etc/permissions/com.nothing.features_vnd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nothing.features_vnd.xml
 
 PRODUCT_PACKAGES += \
-    NTCamera \
-    NothingExperience
+    NothingExperience \
+    NTCamera
