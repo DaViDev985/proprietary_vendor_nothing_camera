@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Flags
-TARGET_USES_NOTHING_CAMERA := true
+TARGET_CAMERA_PACKAGE_NAME := com.nothing.camera
 
 # Properties
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
