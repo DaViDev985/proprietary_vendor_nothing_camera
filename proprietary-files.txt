@@ -6,5 +6,4 @@ system/etc/permissions/privapp-permissions-NothingExperience.xml
 system/etc/sysconfig/com.nothing.experimental.xml
 system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml
 system/priv-app/NothingExperience/NothingExperience.apk
-vendor/etc/permissions/com.nothing.features_vnd.xml
 vendor/system/priv-app/NTCamera/NTCamera.apk:system/priv-app/NTCamera/NTCamera.apk;OVERRIDES=Camera2,GoogleCameraGo
