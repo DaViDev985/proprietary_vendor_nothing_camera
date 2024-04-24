@@ -9,6 +9,7 @@
         <permission name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
         <permission name="android.permission.CONTROL_DEVICE_LIGHTS" />
         <permission name="android.permission.DEVICE_POWER"/>
+        <permission name="android.permission.SYSTEM_CAMERA"/>
     </privapp-permissions>
   
 </permissions>
