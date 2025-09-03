@@ -20,7 +20,7 @@ android_app_import {
 	name: "NTCamera",
 	owner: "nothing",
 	apk: "proprietary/system/priv-app/NTCamera/NTCamera.apk",
-	overrides: ["Camera2", "GoogleCameraGo"],
+	overrides: ["Camera2", "GoogleCameraGo", "Aperture"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
